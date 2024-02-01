@@ -1,0 +1,25 @@
+#xy{
+    height: 800px;
+    width: 800px;
+    display: grid;
+    border: 2px black solid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+}
+
+.rc{
+    display: flex;
+    justify-content: center;
+}
+
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.white{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
